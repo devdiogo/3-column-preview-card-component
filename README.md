@@ -1,41 +1,34 @@
-# TypeScript Next.js example
+# Frontend Mentor - 3-column preview card component solution
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
 
-## Deploy your own
+## Overview
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+### The challenge
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+Users should be able to:
 
-## How to use it?
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### Screenshots
 
-```bash
-npx create-next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
-```
+![](https://user-images.githubusercontent.com/45532934/120888554-356a6780-c5cf-11eb-8481-8207769d8956.png)
+![](https://user-images.githubusercontent.com/45532934/120888591-7793a900-c5cf-11eb-9df9-1c545879d8f2.png)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Links
 
-## Notes
+- Live Site URL: [https://3-column-preview-card-component-coral-three.vercel.app/](https://3-column-preview-card-component-coral-three.vercel.app/)
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+### Built with
 
-```
-npm install --save-dev typescript
-```
+- Mobile-first workflow
+- HTML5
+- Flexbox
+- [Next.js](https://nextjs.org/) - React framework
+- [Sass](https://sass-lang.com) - For styles
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+## Author
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
-
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
-
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
-
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+- GitHub - [https://github.com/devdiogo](https://github.com/devdiogo)
+- Frontend Mentor - [@devdiogo](https://www.frontendmentor.io/profile/devdiogo)
