@@ -20,8 +20,13 @@
     background: $bright-orange
     border-top-left-radius: 8px
     border-bottom-left-radius: 8px
+    border-top-right-radius: 0
     button
       color: $bright-orange
+    @media (max-width: $mobile)
+      border-bottom-left-radius: 0
+      border-top-left-radius: 8px
+      border-top-right-radius: 8px
   &:nth-of-type(2)
     background: $dark-cyan
     button
@@ -30,8 +35,13 @@
     background: $very-dark-cyan
     border-top-right-radius: 8px
     border-bottom-right-radius: 8px
+    border-bottom-left-radius: 0
     button
       color: $very-dark-cyan
+    @media (max-width: $mobile)
+      border-top-right-radius: 0
+      border-bottom-left-radius: 8px
+      border-bottom-right-radius: 8px
   img
     width: 65px
     height: 40px
@@ -58,3 +68,5 @@
       background: transparent
       color: $very-light-gray
       border: 2px solid $very-light-gray
+    @media (max-width: $mobile)
+      margin-top: 25px

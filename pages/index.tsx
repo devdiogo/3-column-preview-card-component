@@ -7,6 +7,7 @@ const IndexPage = () => (
     <Head>
       <title>Car Rentals</title>
       <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+      <meta name="description" content="The most reliable car rental website" />
     </Head>
     <div className={styles.cards}>
       <Card

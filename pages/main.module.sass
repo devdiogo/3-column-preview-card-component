@@ -1,14 +1,21 @@
 @import "../styles/variables"
 
 .container
-  width: 100vw
+  width: 100%
   height: 100vh
   display: flex
   justify-content: center
   align-items: center
   background: $very-light-gray
   font-family: $font-family-1
+  @media (max-width: $mobile)
+    height: 100%
 
 .cards
+  max-width: 920px
   margin: 41px 260px 0 260px
   display: flex
+  flex-direction: row
+  @media (max-width: $mobile)
+    margin: 85px 24px
+    flex-direction: column

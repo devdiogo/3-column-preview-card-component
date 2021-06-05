@@ -6,7 +6,7 @@ const Card = ({ heading, description, buttonText, icon }: CardInfo) => {
   return (
     <div className={styles.card}>
       <div>
-        <img src={`/images/icon-${icon}.svg`} />
+        <img src={`/images/icon-${icon}.svg`} alt={`${icon} icon`} />
       </div>
       <div>
         <h2>{heading}</h2>
